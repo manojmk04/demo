@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="container">
+        <h1>Employee Management</h1>
+        <table id="employee-table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Action</th>
+            </tr>
+        </table>
+        <button id="add-button">Add Employee</button>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <h2 id="modal-title">Add Employee</h2>
+            <form id="employee-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="position">Position:</label>
+                <input type="text" id="position" required>
+                <button id="save-button">Save</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
